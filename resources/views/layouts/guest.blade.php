@@ -25,6 +25,15 @@
             <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
                 {{ $slot }}
             </div>
+            {{-- For test --}}
+            <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
+                <label for="remember_me" class="inline-flex items-center text-xl underline">Testing Purpose</label> <br>
+                <label for="remember_me" class="inline-flex items-center">Admin  : admin@ecom.com</label> <br>
+                <label for="remember_me" class="inline-flex items-center">Seller : seller@ecom.com</label> <br>
+                <label for="remember_me" class="inline-flex items-center">Seller : seller2@ecom.com</label> <br>
+                <label for="remember_me" class="inline-flex items-center">Buyer  : buyer@ecom.com</label> <br>
+                <label for="remember_me" class="inline-flex items-center">Pw - 12345678</label>
+            </div>
         </div>
     </body>
 </html>
